@@ -6,7 +6,7 @@ import VendorRegistration from './components/molecules/vendor-registration';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/Pharmacon">
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/vendor-registration" element={<VendorRegistration />} />
